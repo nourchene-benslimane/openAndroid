@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <SearchView
+            android:id="@+id/searchPartner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+        </SearchView>
+
+        <ListView
+            android:id="@+id/listViewPartners"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip" 
+        android:layout_weight="1">
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>
